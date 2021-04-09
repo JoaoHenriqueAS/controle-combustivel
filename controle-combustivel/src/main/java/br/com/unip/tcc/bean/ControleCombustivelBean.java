@@ -1,7 +1,10 @@
 package br.com.unip.tcc.bean;
 
 import java.io.Serializable;
+import javax.faces.bean.ManagedBean;
 
+@SuppressWarnings("deprecation")
+@ManagedBean
 
 public class ControleCombustivelBean implements Serializable {
 
