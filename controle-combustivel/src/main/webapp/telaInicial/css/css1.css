@@ -11,7 +11,7 @@ header .top-title{
 }
 
 header .bottom-title{
-	background-color: grey;
+	background-color: rgb(72, 70, 185);
 	color: white;
 	padding: 10px;
 }
@@ -24,10 +24,12 @@ header .bottom-title{
 	background-color: #EDEDED;
 	list-style: none;
 	font: 25px Tahoma;
+	
 }
 
 #menu ul li {
 	display: inline;
+
 }
 
 #menu ul li a{
@@ -42,11 +44,11 @@ header .bottom-title{
 #menu ul li a:hover{
 	background-color: #D6D6D6;
 	color: #6D6D6D;
-	border-bottom: 3px solid #EA0000;
+	border-bottom: 3px solid rgb(72, 70, 185);
 }
 
 body{
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 }
 
@@ -59,32 +61,6 @@ main{
 footer .developers{
 	font-size: 15px;
 	color: #6D6D6D;
-}
-
-.painel-principal {
-	width: auto;
-	height: auto;
-	border: 3px solid black;
-	display: inline-flex;
-  }
-  
-  .bloco-painel {
-	height: 250px;
-	border: 1px solid grey;
-	width: 250px;
-	margin: 5px 5px 5px 5px;
-  }
-  
-  .cabecalho-bloco {
-	
-	margin-top: 5px;
-	height: 15%;
-	text-align: center;
-	font-size: 25px;
-	
-  }
-
-.combustivel_mostra{
-	margin-top: 10px;
-	font-size: 15px;
+	width: 850px;
+	margin: auto;
 }

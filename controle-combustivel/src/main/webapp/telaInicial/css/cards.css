@@ -1,0 +1,42 @@
+.content{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.card1{
+    background: #ffffff;
+    box-shadow: 0px 2px 18px rgb(72, 70, 185);
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.card2{
+    background: #ffffff;
+    box-shadow: 0px 2px 18px rgb(72, 70, 185);
+    border-radius: 20px;
+}
+
+.mediaCard1{
+    background: url("https://thumbs.jusbr.com/imgs.jusbr.com/publications/images/30d615d5ba82fd4c5bc29da556850eaf") center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.mediaCard2{
+    background: url("https://mundoconectado.com.br/uploads/chamadas/bateria--10-min-carro-eletrico.jpg") center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.topcard{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard{
+    padding: 15px;
+}
